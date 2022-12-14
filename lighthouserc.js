@@ -5,7 +5,7 @@ module.exports = {
     },
     upload: {
       target: 'filesystem',
-      outputDir: "./lhci"
+      outputDir: "./reports"
     },
   },
 };
