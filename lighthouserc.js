@@ -4,7 +4,8 @@ module.exports = {
       staticDistDir: './',
     },
     upload: {
-      target: 'filesystem'
+      target: 'filesystem',
+      outputDir: "./lhci"
     },
   },
 };
