@@ -4,7 +4,8 @@ module.exports = {
       staticDistDir: './',
     },
     upload: {
-      target: 'temporary-public-storage',
+      target: 'filesystem',
+      outputDir: "./"
     },
   },
 };
