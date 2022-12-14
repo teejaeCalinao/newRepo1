@@ -86,4 +86,31 @@ Notes:
   - This will contain the action and the status of our Lighthouse report generation
   - Select your latest commit:
 
-  ![ci yaml content](/readme-images/ci-yaml.png "ci.yaml content")
+  ![action-1](/readme-images/CI-1.png "action tab content")
+
+  - Select Lighthouse to view the status of our CI commands:
+  
+  ![action-2](/readme-images/CI-2.png "action tab content")
+
+  - View the status of our Lighthouse-CI commands:
+
+  ![action-3](/readme-images/CI-3.png "action tab content")
+
+  - Reports will be added in Github CI:
+
+  ![action-4](/readme-images/CI-4.png "action tab content")
+
+  - Click summary on the right and return to click and download our generated LHCI reports as artifacts:
+
+  ![action-5](/readme-images/CI-5.png "action tab content")
+  
+  - Unzip the downloaded reports and view the Lighthouse audits as json or as html.
+  - Open the manifest.json as it contains summarized data of the audit.
+  - Look for report which "isRepresentativeRun" value is true. This represents that the json and html indicated in this run are the median/averaged report.
+    
+    ![manifest](/readme-images/manifest-json.png "manifest.json")
+    
+  - Lighthouse-CI runs 3 audits then adds the last report as the median.
+  - This median report contains the detailed lighthouse audit:
+    
+    ![lhci-1](/readme-images/lhci-median.png "html report")
