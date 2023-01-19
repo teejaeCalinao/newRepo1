@@ -19,3 +19,7 @@ jobs:
         with:
           name: lhci-reports
           path: /home/runner/work/newRepo1/newRepo1/lhci
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: lhci-reports
